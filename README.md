@@ -11,7 +11,7 @@ GitHub Actions Workflow: This demo includes a GitHub Actions workflow to automat
 - Clone the Repository:
 
 ```bash
-git clone https://github.com/your-username/jest-test-cases.git
+git clone https://github.com/nora-weisser/testing-with-jest.git
 ```
 
 - Install Dependencies:
