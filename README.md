@@ -1,6 +1,6 @@
 # Testing with Jest
 
-This repository is dedicated to showcasing the capabilities of Jest framework for implementing unit tests for Javascript functions. Jest provides a simple and efficient way to write unit tests, ensuring its reliability and correctness.
+This repository is dedicated to showcase the capabilities of Jest framework for implementing unit tests for Javascript code. Jest provides a simple and efficient way to write unit tests, ensuring its reliability and correctness.
 
 ## Features
 Unit Testing with Jest: Explore examples of how to structure and write your tests effectively.
