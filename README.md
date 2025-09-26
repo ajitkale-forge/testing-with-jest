@@ -5,7 +5,9 @@ This repository is dedicated to showcase the capabilities of Jest framework for 
 ## Features
 Unit Testing with Jest: Explore examples of how to structure and write your tests effectively.
 
-GitHub Actions Workflow: This demo includes a GitHub Actions workflow to automate the testing process. Each push to the repository triggers a set of tests to ensure that your codebase remains in a reliable state. Check out the .github/workflows directory for the workflow configuration.
+Code Coverage with Codecov: Integrated code coverage reporting using Jest and Codecov to track test coverage metrics.
+
+GitHub Actions Workflow: This demo includes a GitHub Actions workflow to automate the testing process and upload coverage reports. Each push to the repository triggers a set of tests and generates coverage reports to ensure that your codebase remains in a reliable state. Check out the .github/workflows directory for the workflow configuration.
 
 ## Getting Started
 - Clone the Repository:
@@ -26,4 +28,26 @@ To run the test suite, use the following command:
 ```bash
 npm test
 ```
-You can customize the test execution by modifying the Jest configuration in the jest.config.js file.
+
+- Running Tests with Coverage
+To run tests and generate coverage reports locally:
+
+```bash
+npm run test:coverage
+```
+
+This will generate coverage reports in the `coverage/` directory and display coverage statistics in the terminal.
+
+## Code Coverage
+This project is configured with code coverage reporting using:
+- **Jest** for generating coverage reports
+- **Codecov** for coverage visualization and tracking
+- **GitHub Actions** for automated coverage reporting on pull requests
+
+### Coverage Configuration
+- Minimum coverage thresholds are set to 80% for branches, functions, lines, and statements
+- Coverage reports are generated in multiple formats: text, lcov, and HTML
+- Test files are excluded from coverage calculations
+- Coverage reports are automatically uploaded to Codecov on each push and pull request
+
+You can customize the test execution and coverage settings by modifying the Jest configuration in the `jest.config.js` file.
